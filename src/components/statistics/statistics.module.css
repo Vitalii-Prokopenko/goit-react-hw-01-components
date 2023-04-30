@@ -1,0 +1,56 @@
+/* Styles for statistics */
+.statistics__wrap {
+  margin: 0 auto 40px;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: auto;
+}
+
+.statistics__wrap:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.statistics__title {
+  margin-bottom: 30px;
+  font-weight: 800;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.statistics__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: auto;
+  background-color: lightcyan;
+}
+
+.statistics__item {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid lightslategray;
+  font-size: 30px;
+}
+
+.statistics__label {
+    margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.statistics__percentage {
+  font-weight: 900;
+}
+
+.statistics__item:hover {
+  background-color: lightsalmon;
+  color: crimson;
+}
