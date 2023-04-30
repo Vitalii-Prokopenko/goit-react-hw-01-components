@@ -1,0 +1,88 @@
+/* Styles for Profile */
+
+.user__profile {
+  margin: 0 auto;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: auto;
+}
+
+.user__profile:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.user__description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.user__description p {
+  margin-bottom: 15px;
+}
+
+.user__avatar {
+  margin-bottom: 20px;
+  width: 512px;
+  height: 512px;
+}
+
+.user__name {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.user__tag {
+  color: lightseagreen;
+  cursor: pointer;
+}
+
+.user__tag:hover {
+  color: seagreen;
+}
+
+.user__location {
+  text-decoration: underline;
+}
+
+.user__tag:hover {
+  color: seagreen;
+}
+
+.user__stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  height: auto;
+  background-color: lightcyan;
+}
+
+.user__stats-item {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid lightslategray;
+  font-size: 30px;
+}
+
+.user__label {
+    font-weight: 600;
+}
+
+.user__quantity {
+    font-weight: 900;
+}
+
+.user__stats-item:hover {
+    background-color: lightsalmon;
+    color: crimson;
+}
