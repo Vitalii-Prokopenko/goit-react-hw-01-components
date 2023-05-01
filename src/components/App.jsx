@@ -4,7 +4,6 @@ import friends from 'friends.json';
 import { Profile } from 'components/profile/Profile';
 import { Statistics } from 'components/statistics/Statistics';
 import { FriendList } from 'components/friendList/FriendList';
-import { FriendListItem } from 'components/friendListItem/FriendListItem';
 
 export const App = () => {
   return (
