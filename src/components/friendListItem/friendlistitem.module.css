@@ -1,0 +1,46 @@
+/* Styles for friendListItem */
+.friend__item {
+  padding: 30px 0 30px 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  border: 1px solid gray;
+}
+
+.friend__item:hover {
+  border-color: #333;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.friend__item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.friend__status {
+  margin-right: 20px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.online {
+  background-color: green;
+}
+
+.offline {
+  background-color: red;
+}
+
+.friend__avatar {
+  margin-right: 20px;
+}
+
+.friend__name {
+  font-size: 40px;
+  font-weight: 800;
+  text-transform: capitalize;
+  color: #777;
+}
